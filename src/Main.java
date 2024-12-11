@@ -69,6 +69,12 @@ public class Main {
                 System.out.println("Process " + (i + 1) + " of size " + processSize[i] + " is not allocated.");
             }
         }
+        //Final Memory State
+        System.out.println("=================================================="+"\nFinal Memory State:");
+        for (int i = 0; i < numBlock; i++) {
+           System.out.println("Block"+ (i+1)+ ":" +blockSizes[i]);
+        }
+
 
     }
 }
